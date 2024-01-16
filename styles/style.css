@@ -41,13 +41,15 @@ body {
 }
 
 video {
-  height: 100%;
+  width: 100%;
+  height: auto;
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
   -o-object-position: center top;
      object-position: center top;
   margin: 0 auto;
+  display: block;
 }
 
 .overlay-text {
