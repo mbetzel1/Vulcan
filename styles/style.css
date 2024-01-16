@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "Michroma-Regular";
+  src: url("../fonts/Michroma/Michroma-Regular.ttf") format("truetype");
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
+}
+
+.text-container {
+  background-color: black;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.nav-item-middle {
+  border-left: 1px solid white;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-container {
+  margin-top: 20vh;
+}
+
+.form-container {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+#form {
+  width: 75vh;
+}
+
+.gif-container {
+  position: relative;
+  width: 100%;
+  height: 75vh;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.full-screen-gif {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  color: white;
+}
+
+.overlay-big-text {
+  transform: translate(-50%, -80%);
+  font-family: "Michroma-Regular", Arial, Sans-serif;
+  font-size: 3vw;
+}
+
+.overlay-small-text {
+  font-size: 1.5vw;
+  transform: translate(-50%, 60%);
+}
+
+.additional-content {
+  background-color: black;
+  color: white;
+  height: 100vh;
+}
+
+.values-container {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+  margin-right: 20vh;
+  margin-left: 20vh;
+  margin-top: 20vh;
+  border-bottom: 1px solid white;
+}
+
+.values {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 0.1vh;
+  font-size: 4vw;
+  font-family: "Michroma-Regular", Arial, Sans-serif;
+}
+
+.value {
+  padding: 1vh;
+  margin: 4vh;
+  padding-left: 3vh;
+  margin-top: 5vh;
+  flex: 1;
+  font-size: 3vw;
+  text-align: left;
+  border-left: 1vw solid white;
+  min-width: 300px;
+}
+
+.value-text {
+  font-size: 1.5vw;
+}
+
+@media only screen and (max-width: 767px) {
+  .overlay-big-text {
+    font-size: 5vw;
+  }
+  .overlay-small-text {
+    font-size: 3vw;
+  }
+  .nav-item-middle {
+    border-left: none;
+  }
+}/*# sourceMappingURL=style.css.map */
