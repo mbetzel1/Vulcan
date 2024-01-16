@@ -46,8 +46,7 @@ video {
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
-  -o-object-position: center top;
-     object-position: center top;
+  position: absolute;
   margin: 0 auto;
   display: block;
 }

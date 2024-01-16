@@ -43,7 +43,7 @@ video {
     height: 100%;
     object-fit: cover;
     overflow: hidden;
-    object-position: center top;
+    position: absolute;
     margin: 0 auto;
     display: block;
 }
