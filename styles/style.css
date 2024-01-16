@@ -91,11 +91,6 @@ video {
   height: 100vh;
 }
 
-.values-container {
-  text-align: center;
-  display: flex;
-}
-
 .header {
   margin-right: 20vh;
   margin-left: 20vh;
@@ -103,12 +98,18 @@ video {
   border-bottom: 1px solid white;
 }
 
-.values {
+.header-text {
   display: flex;
   justify-content: space-around;
   padding-bottom: 0.1vh;
   font-size: 4vw;
   font-family: "Michroma-Regular", Arial, Sans-serif;
+}
+
+.values-container {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .value {
