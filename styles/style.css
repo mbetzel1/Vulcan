@@ -47,6 +47,7 @@ video {
   overflow: hidden;
   -o-object-position: center top;
      object-position: center top;
+  margin: 0 auto;
 }
 
 .overlay-text {
