@@ -46,12 +46,12 @@ body {
 }
 .vid-container {
     position: relative;
-    height: 50vh;
+    height: 85vh;
     width: auto;
     overflow: hidden;
 }
+
 video {
-    width: auto;
     height: 100%;
     object-fit: cover;
     overflow: hidden;
