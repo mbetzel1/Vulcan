@@ -101,7 +101,7 @@ video {
   display: flex;
   justify-content: space-around;
   padding-bottom: 0.1vh;
-  font-size: 4vw;
+  font-size: 3vw;
   font-family: "Michroma-Regular", Arial, Sans-serif;
 }
 
@@ -117,7 +117,7 @@ video {
   padding-left: 3vh;
   margin-top: 5vh;
   flex: 1;
-  font-size: 3vw;
+  font-size: 2vw;
   text-align: left;
   border-left: 1vw solid white;
   flex-wrap: wrap;
@@ -125,7 +125,7 @@ video {
 }
 
 .value-text {
-  font-size: 1.5vw;
+  font-size: 1vw;
 }
 
 @media only screen and (max-width: 767px) {
