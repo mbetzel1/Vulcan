@@ -116,7 +116,7 @@ video {
 
 .value {
   padding: 1vh;
-  margin: 4vh;
+  margin: 2vh;
   padding-left: 3vh;
   margin-top: 5vh;
   flex: 1;
@@ -140,5 +140,11 @@ video {
   }
   .nav-item-middle {
     border-left: none;
+  }
+  .value-text {
+    font-size: 3vw;
+  }
+  .value {
+    font-size: 5vw;
   }
 }/*# sourceMappingURL=style.css.map */
