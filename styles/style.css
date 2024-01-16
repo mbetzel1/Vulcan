@@ -48,6 +48,7 @@ video {
   left: 50%;
   transform: translate(-50%);
   margin: 0 auto;
+  display: block;
 }
 
 .overlay-text {
