@@ -30,7 +30,7 @@ body {
     background-color: black;
     opacity: 1;
     transition: opacity 0.5s;
-    padding: 3vh 4vw;
+    padding: 3vh 10vw;
 }
 .navbar.hidden {
     opacity: 0;
@@ -38,7 +38,9 @@ body {
 .nav-item-middle {
     border-left: 1px solid white;
 }
-
+.nav-item {
+    padding: 0 1vw;
+}
 .vid-container {
     position: relative;
     width: 100%;
