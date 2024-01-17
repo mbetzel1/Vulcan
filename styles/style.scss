@@ -23,6 +23,11 @@ $tertiary-color:  #dfc6ac;
 }
 .navbar {
     background-color: black;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+.navbar.hidden {
+    opacity: 0;
 }
 .nav-item-middle {
     border-left: 1px solid white;
