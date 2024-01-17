@@ -136,19 +136,19 @@ video {
 
 @media only screen and (max-width: 767px) {
   .overlay-big-text {
-    font-size: 5vw;
+    font-size: 7vw;
   }
   .overlay-small-text {
-    font-size: 3vw;
+    font-size: 4vw;
   }
   .nav-item-middle {
     border-left: none;
   }
   .value-text {
-    font-size: 3vw;
+    font-size: 4vw;
   }
   .value {
-    font-size: 5vw;
+    font-size: 6vw;
   }
   .header-text {
     font-size: 8vw;
