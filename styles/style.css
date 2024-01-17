@@ -107,9 +107,9 @@ video {
   padding-left: 3vh;
   margin-top: 5vh;
   flex: 1;
-  font-size: 1.5em;
+  font-size: 1.25em;
   text-align: left;
-  border-left: 0.5vw solid white;
+  border-left: 7.5px solid white;
   flex-wrap: wrap;
   min-width: 300px;
   font-weight: bold;
