@@ -146,7 +146,6 @@ video {
 
 #contact-email:hover {
   text-decoration: underline;
-  font-weight: bold;
 }
 
 @media only screen and (max-width: 767px) {
