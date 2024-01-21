@@ -19,6 +19,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
     font-size: calc(16px + 0.390625vw);
+    color: white;
 }
 
 .fade-in {
@@ -76,17 +77,18 @@ video {
     transform: translate(-50%, 60%);
 }
 
-.additional-content {
-    background-color: black;
-    color: white;
-    height: 80vh;
-}
-.header {
-    margin-right: 10vw;
-    margin-left: 10vw;
-    margin-top: 10vh;
 
+.divider {
+    height: 4vh;
+    margin: 10vh 0;
+    width: 100%;
 }
+
+.header {
+    margin-top: 10vh;
+    width: 100%;
+}
+
 .header-text {
     display: flex;
     padding-left: 1vw;
@@ -95,12 +97,22 @@ video {
     font-family: "Michroma-Regular", Arial, Sans-serif;
     text-align: left;
 }
-.values-container {
+
+.section-container {
+    margin: 10vh 0;
+    padding: 0 9vw;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 9vw;
 }
+
+#form-container {
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+}
+
 .value {
     padding: 1vh;
     margin: 2vh;
@@ -110,7 +122,6 @@ video {
     font-size: 1.25em;
     text-align: left;
     border-left: 7.5px solid white;
-    flex-wrap: wrap;
     min-width: 300px;
     font-weight: bold;
 }
@@ -118,17 +129,23 @@ video {
     font-size: 0.75em;
     font-weight: normal;
 }
-.contact-container {
-    margin-top: 10vh;
+.contact-info {
+    max-width: 60vw;
+    margin: 0 auto;
+    border-top: 1px solid white;
+    font-size: 0.5em;
+    text-align: center;
+    padding: 10px 0;
 }
-
-.form-container {
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
-    width: 100%;
+.contact-info p {
+    margin: 0;
+}
+#contact-email {
+    color: white;
+}
+#contact-email:hover {
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 767px) {
