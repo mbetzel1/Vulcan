@@ -17,6 +17,18 @@ body, footer {
   color: white;
 }
 
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0 0 0.5vh 0;
+}
+
+p {
+  font-size: 1em;
+  font-weight: normal;
+}
+
 .fade-in {
   opacity: 0;
   animation: fadeIn 2s ease-in-out forwards;
@@ -120,20 +132,8 @@ video {
   min-width: 320px;
 }
 
-h2 {
-  font-size: 1.5em;
-  font-weight: bold;
-  margin: 0;
-  padding: 0 0 0.5vh 0;
-}
-
 .leader {
   max-width: 30vw;
-}
-
-p {
-  font-size: 1em;
-  font-weight: normal;
 }
 
 .leader-title {
