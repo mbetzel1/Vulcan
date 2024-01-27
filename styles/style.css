@@ -170,32 +170,10 @@ video {
 
 .section-container {
   margin: 10vh 0;
-  padding: 0 9vw;
+  padding: 0 5vw;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-}
-
-.value-hdg {
-  min-height: 7.5vh;
-}
-
-#values {
-  color: #ffffff;
-}
-
-.value, .leader {
-  padding: 1vh;
-  margin: 2vh;
-  padding-left: 3vh;
-  margin-top: 5vh;
-  flex: 1;
-  text-align: left;
-  min-width: 320px;
-}
-
-.value {
-  border-left: 7.5px solid #63d297;
 }
 
 #about-header {
@@ -204,25 +182,26 @@ video {
 
 .about {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .about-img-container {
-  height: 100%;
   width: 50%;
   position: relative;
   flex: 1;
 }
 
 .about-text-container {
-  height: 100%;
   width: 50%;
   flex: 1;
 }
 
 .about-img {
   position: absolute;
+  min-width: 25%;
+  min-height: 25%;
 }
 
 #drone-img {
@@ -259,6 +238,10 @@ video {
   font-family: "Roboto Mono", monospace;
 }
 
+.about-text-container, .about-img-container {
+  min-width: 320px;
+}
+
 #right-about {
   text-align: right;
   justify-content: right;
@@ -267,6 +250,28 @@ video {
 #left-about {
   text-align: left;
   justify-content: left;
+}
+
+.value-hdg {
+  min-height: 7.5vh;
+}
+
+#values {
+  color: #ffffff;
+}
+
+.value, .leader {
+  padding: 1vh;
+  margin: 2vh;
+  padding-left: 3vh;
+  margin-top: 5vh;
+  flex: 1;
+  text-align: left;
+  min-width: 320px;
+}
+
+.value {
+  border-left: 7.5px solid #63d297;
 }
 
 hr {
@@ -325,7 +330,6 @@ hr {
 #form-container {
   justify-content: center;
   align-items: center;
-  height: 90vh;
   width: 100%;
 }
 
@@ -366,5 +370,26 @@ hr {
   }
   .contact-info p {
     font-size: 1.5em;
+  }
+  .about-img {
+    position: relative;
+  }
+  #right-about, #left-about {
+    justify-content: center;
+    text-align: center;
+  }
+  #about-reverse {
+    flex-wrap: wrap-reverse;
+  }
+  .about-img-wide {
+    display: none;
+  }
+  #cnc-img, #wind-img {
+    width: 80%;
+    height: auto;
+    transform: none;
+    top: auto;
+    left: auto;
+    right: auto;
   }
 }/*# sourceMappingURL=style.css.map */
