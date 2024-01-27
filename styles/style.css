@@ -319,12 +319,12 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5vw;
+  padding: 2.5vw;
 }
 
 .ldr-image {
   height: 25vh;
-  margin: 1vh auto;
+  margin: 0 auto;
 }
 
 #form-container {
@@ -391,5 +391,12 @@ hr {
     top: auto;
     left: auto;
     right: auto;
+  }
+  .divider {
+    margin: 5vh 0;
+  }
+  .leader {
+    padding-bottom: 0;
+    margin: 0;
   }
 }/*# sourceMappingURL=style.css.map */
