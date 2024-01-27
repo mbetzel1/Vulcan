@@ -16,7 +16,7 @@
   	<body>
 		<nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="topnav-holder">
 			<a href="https://mbetzel1.github.io/Vulcan/" id="bfro-link">
-				<img id="logo" src="./images/vulcan-logo-outlined.png" height="80px" alt="Vulcan Logo">
+				<img id="logo" src="./images/logo-green.png" height="100px" alt="Vulcan Logo">
 			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topnav" aria-controls="topnav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -27,13 +27,13 @@
 						<a id="home-link" class="nav-link text-white active" href="./index.html">About</a>
 					</li>
 					<li class="nav-item">
-						<a id="map-link" class="nav-link text-white" href="#values-container">Our Principles</a>
+						<a id="map-link" class="nav-link text-white" href="#values">Our Principles</a>
 					</li>
 					<li class="nav-item">
-						<a id="circle-link" class="nav-link text-white" href="#leaders-container">Leadership</a>
+						<a id="circle-link" class="nav-link text-white" href="#leaders">Leadership</a>
 					</li>
 					<li class="nav-item">
-						<a id="circle-link" class="nav-link text-white" href="#contact-container">Contact</a>
+						<a id="circle-link" class="nav-link text-white" href="#contact">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -50,29 +50,32 @@
 
 			<div class="divider"></div>
 
-			<div class="section-container" id="values-container">
+			<div class="section-container" id="values">
 				<div class="header">
 					<h1 class="header-text">Values</h1>
 				</div>
-				<div class="value"><h2>Commitment</h2>
-					<p>We believe in meeting challenges with grit and determination etc etc</p>
+				<div class="value"><h2 class="value-hdg">Mission Focused</h2>
+					<p>We are laser focused on improving U.S./allied national security, building transparent supply chains, and driving towards a sustainable future</p>
 				</div>
-				<div class="value"><h2>Mission-Driven</h2>
-					<p>Onshoring rare earth magnet production will create new jobs and a safer world etc etc.</p>
+				<div class="value"><h2 class="value-hdg">Innovation</h2>
+					<p>We are innovating within the magnet industry while holding ourselves accountable to the highest standards of product quality</p>
 				</div>
-				<div class="value"><h2>Sustainability</h2>
-					<p>Vulcan will set a new market standard for rare earth magnet sustainability etc etc</p>
+				<div class="value"><h2 class="value-hdg">Extreme Ownership</h2>
+					<p>We own our outcomes. We’ll make mistakes, but we won’t make them twice</p>
 				</div>
 			</div>
 
 			<div class="divider"></div>
-
-			<div class="section-container" id="leaders-container">
-				<div class="header">
+			<div class="section-container" id="leaders">
+				<span></span>
+				<hr>
+				<div class="header" id="leader-header">
 					<h1 class="header-text">Leadership</h1>
 				</div>
-				
 				<div class="leader">
+					<div class="img-holder">
+						<img class="ldr-image" src="./images/maslin.png">
+					</div>
 					<h2 class="leader-name">John Maslin</h2>
 					<h3 class="leader-title">CHIEF EXECUTIVE OFFICER</h3>
 					<p class="leader-bio">John Maslin is a former US Navy Supply Officer where he spent five years serving at the Navy’s 
@@ -82,6 +85,9 @@
 						and an MBA from Harvard Business School.</p>
 				</div>
 				<div class="leader">
+					<div class="img-holder">
+						<img class="ldr-image" src="./images/bowles.png">
+					</div>
 					<h2 class="leader-name">Jake Bowles</h2>
 					<h3 class="leader-title">CHIEF OPERATING OFFICER</h3>
 					<p class="leader-bio">Jake Bowles has over 10 years experience in manufacturing & material development positions. 
@@ -91,19 +97,26 @@
 						Jake holds a BS from The Ohio State University where he studied Mechanical Engineering.</p>
 				</div>
 				<div class="leader">
+					<div class="img-holder">
+						<img class="ldr-image" src="./images/kulik.png">
+					</div>
 					<h2 class="leader-name">Piotr Kulik, PhD</h2>
 					<h3 class="leader-title">CHIEF TECHNOLOGY OFFICER</h3>
-					<p class="leader-bio">Jake Bowles has over 10 years experience in manufacturing & material development positions. 
-						Prior to Vulcan Elements, he was a Director at Ursa Major leading teams in 
-						advanced manufacturing, materials engineering, 3D printing, machining, and R&D operations. 
-						He began his career as an engineer at SpaceX developing 3D printing processes for spaceflight applications. 
-						Jake holds a BS from The Ohio State University where he studied Mechanical Engineering.</p>
+					<p class="leader-bio">Dr Piotr Kulik has over 10 years of experience in research and development
+							in the aerospace and defense industry. Piotr is currently an Associate Professor
+							at the University of Central Florida where he leads research in novel magnetic materials
+							for applications such as quantum sensing and power electronics. Piotr has a Bachelor of
+							Engineering and Master of Engineering from Stevens Institute of Technology and a Ph.D.
+								from Northeastern University in Electrical Engineering.</p>
 				</div>
+				<span class="white-span"></span>
+				<hr>
+				
 			</div>
 
 			<div class="divider"></div>
 
-			<div class="section-container" id="contact-container">
+			<div class="section-container" id="contact">
 				<div class="header">
 					<h1 class="header-text">Contact</h1>
 				</div>
@@ -112,7 +125,6 @@
 					<script src="//embed.typeform.com/next/embed.js"></script>
 				</div>
 			</div>
-
         </div>
 		<script src="./scripts/navbar_hide.js"></script>	
   	</body>

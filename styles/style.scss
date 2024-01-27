@@ -1,6 +1,8 @@
-$primary-color: #292929;
-$secondary-color: #2b3e56;
-$tertiary-color:  #dfc6ac;
+$primary-color: #000000;
+$secondary-color: #ffffff;
+$tertiary-color:  #63d297;
+$accent-color: #B2DCC5;
+
 
 @font-face {
     font-family: 'Michroma-Regular';
@@ -17,9 +19,9 @@ $tertiary-color:  #dfc6ac;
 
 body, footer {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
+    background-color: $primary-color;
     font-size: calc(16px + 0.390625vw);
-    color: white;
+    color: $secondary-color;
 }
 
 h2 {
@@ -31,7 +33,7 @@ h2 {
 
 p {
     font-size: 1em;
-    font-weight: normal;
+    font-weight: lighter;
 }
 
 .fade-in {
@@ -40,7 +42,7 @@ p {
 }
 
 .navbar {
-    background-color: black;
+    background-color: $primary-color;
     opacity: 1;
     transition: opacity 0.5s;
     padding: 3vh 10vw;
@@ -74,7 +76,7 @@ video {
     top: 50%;
     left: 50%;
     text-align: center;
-    color: white;
+    color: $secondary-color;
     width: 60%;
 }
 
@@ -95,7 +97,15 @@ video {
     margin: 10vh 0;
     width: 100%;
 }
-
+.white-divider {
+    background-color: $secondary-color;
+    margin: 0;
+    padding: 0;
+}
+.text-container {
+    margin: 0;
+    padding: 0;
+}
 .header {
     margin-top: 10vh;
     width: 100%;
@@ -108,6 +118,7 @@ video {
     font-size: 2em;
     font-family: "Michroma-Regular", Arial, Sans-serif;
     text-align: left;
+    color: $secondary-color;
 }
 
 .section-container {
@@ -117,6 +128,53 @@ video {
     display: flex;
     flex-wrap: wrap;
 }
+
+.value-hdg {
+    min-height: 7.5vh;
+}
+
+#leaders {
+    background-color: $secondary-color;
+    color: $primary-color;
+    margin: 10vh 0;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+#leader-header {
+    margin-top: 10vh;
+    padding-top: 0;
+}
+
+#leader-header h1 {
+    color: $primary-color;
+}
+
+.img-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5vw;
+}
+.ldr-image {
+    height: 25vh;
+    margin: 1vh auto;
+}
+
+hr {
+    margin-top: 10vh;
+    border: 0;
+    height: 0.3vh;
+    background-color: $tertiary-color;
+    display: block;
+    margin: 1vh auto;
+    width: 80%;
+}
+
+#values {
+    color: $secondary-color;
+}
+
 
 #form-container {
     justify-content: center;
@@ -132,12 +190,16 @@ video {
     margin-top: 5vh;
     flex: 1;
     text-align: left;
-    border-left: 7.5px solid white;
     min-width: 320px;
+}
+
+.value {
+    border-left: 7.5px solid $tertiary-color;
 }
 
 .leader {
     max-width: 30vw;
+    padding-bottom: 7.5vh;
 }
 
 
@@ -153,7 +215,7 @@ video {
 .contact-info {
     max-width: 60vw;
     margin: 0 auto;
-    border-top: 1px solid white;
+    border-top: 1px solid $secondary-color;
     font-size: 0.5em;
     text-align: center;
     padding: 10px 0;
@@ -189,5 +251,6 @@ video {
     .contact-info p {
         font-size: 1.5em
     }
+
 
 }

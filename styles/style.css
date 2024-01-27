@@ -12,9 +12,9 @@
 }
 body, footer {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: black;
+  background-color: #000000;
   font-size: calc(16px + 0.390625vw);
-  color: white;
+  color: #ffffff;
 }
 
 h2 {
@@ -26,7 +26,7 @@ h2 {
 
 p {
   font-size: 1em;
-  font-weight: normal;
+  font-weight: lighter;
 }
 
 .fade-in {
@@ -35,7 +35,7 @@ p {
 }
 
 .navbar {
-  background-color: black;
+  background-color: #000000;
   opacity: 1;
   transition: opacity 0.5s;
   padding: 3vh 10vw;
@@ -71,7 +71,7 @@ video {
   top: 50%;
   left: 50%;
   text-align: center;
-  color: white;
+  color: #ffffff;
   width: 60%;
 }
 
@@ -92,6 +92,17 @@ video {
   width: 100%;
 }
 
+.white-divider {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.text-container {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   margin-top: 10vh;
   width: 100%;
@@ -104,6 +115,7 @@ video {
   font-size: 2em;
   font-family: "Michroma-Regular", Arial, Sans-serif;
   text-align: left;
+  color: #ffffff;
 }
 
 .section-container {
@@ -112,6 +124,53 @@ video {
   text-align: center;
   display: flex;
   flex-wrap: wrap;
+}
+
+.value-hdg {
+  min-height: 7.5vh;
+}
+
+#leaders {
+  background-color: #ffffff;
+  color: #000000;
+  margin: 10vh 0;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+#leader-header {
+  margin-top: 10vh;
+  padding-top: 0;
+}
+
+#leader-header h1 {
+  color: #000000;
+}
+
+.img-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5vw;
+}
+
+.ldr-image {
+  height: 25vh;
+  margin: 1vh auto;
+}
+
+hr {
+  margin-top: 10vh;
+  border: 0;
+  height: 0.3vh;
+  background-color: #63d297;
+  display: block;
+  margin: 1vh auto;
+  width: 80%;
+}
+
+#values {
+  color: #ffffff;
 }
 
 #form-container {
@@ -128,12 +187,16 @@ video {
   margin-top: 5vh;
   flex: 1;
   text-align: left;
-  border-left: 7.5px solid white;
   min-width: 320px;
+}
+
+.value {
+  border-left: 7.5px solid #63d297;
 }
 
 .leader {
   max-width: 30vw;
+  padding-bottom: 7.5vh;
 }
 
 .leader-title {
@@ -148,7 +211,7 @@ video {
 .contact-info {
   max-width: 60vw;
   margin: 0 auto;
-  border-top: 1px solid white;
+  border-top: 1px solid #ffffff;
   font-size: 0.5em;
   text-align: center;
   padding: 10px 0;
