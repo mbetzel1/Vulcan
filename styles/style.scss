@@ -95,6 +95,8 @@ p {
     opacity: 1;
     transition: opacity 0.5s;
     padding: 3vh 10vw;
+    border-bottom: 2px solid $secondary-color;
+    transition: padding 0.3s;
 }
 .navbar.hidden {
     opacity: 0;
@@ -118,6 +120,7 @@ video {
     left: 50%;
     transform: translate(-50%);
     margin: 0 auto;
+    opacity: 0.5;
 }
 
 .overlay-text {
