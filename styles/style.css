@@ -24,43 +24,37 @@
 .pre-slide-up {
   opacity: 0;
   transform: translate(0, 5vh);
-  transition: opacity 1s ease, transform 3s ease;
-  transition-delay: 0.1s;
+  transition: opacity 0.5s ease, transform 1.5s ease;
 }
 
 .post-slide-up {
   opacity: 1;
   transform: translate(0, 0) !important;
-  transition: opacity 1s ease, transform 3s ease;
-  transition-delay: 0.1s;
+  transition: opacity 0.5s ease, transform 1.5s ease;
 }
 
 .pre-slide-right {
   opacity: 0;
   transform: translate(2.5vw, 0);
-  transition: opacity 1s ease, transform 3s ease;
-  transition-delay: 0.25s;
+  transition: opacity 0.5s ease, transform 1.5s ease;
 }
 
 .post-slide-right {
   opacity: 1;
   transform: translate(0, 0) !important;
-  transition: opacity 1s ease, transform 3s ease;
-  transition-delay: 0.25s;
+  transition: opacity 0.5s ease, transform 1.5s ease;
 }
 
 .pre-slide-left {
   opacity: 0;
   transform: translate(-2.5vw, 0);
-  transition: opacity 1s ease, transform 3s ease;
-  transition-delay: 0.25s;
+  transition: opacity 0.5s ease, transform 1.5s ease;
 }
 
 .post-slide-left {
   opacity: 1;
   transform: translate(0, 0) !important;
-  transition: opacity 1s ease, transform 3s ease;
-  transition-delay: 0.25s;
+  transition: opacity 0.5s ease, transform 1.5s ease;
 }
 
 body, footer {
@@ -115,7 +109,7 @@ video {
   left: 50%;
   transform: translate(-50%);
   margin: 0 auto;
-  opacity: 0.5;
+  opacity: 0.65;
 }
 
 .overlay-text {
@@ -302,6 +296,10 @@ hr {
   margin-bottom: 0.5vh;
 }
 
+.leader-bio {
+  font-size: 0.8em;
+}
+
 #leaders {
   background-color: #ffffff;
   color: #000000;
@@ -327,7 +325,7 @@ hr {
 }
 
 .ldr-image {
-  height: 25vh;
+  width: 15vw;
   margin: 0 auto;
 }
 
