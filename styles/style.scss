@@ -31,42 +31,42 @@ $accent-color: #B2DCC5;
 .pre-slide-up {
     opacity: 0;
     transform: translate(0, 5vh);
-    transition: opacity 025s ease, transform 1s ease;
+    transition: opacity 1s ease, transform 3s ease;
     transition-delay: 0.1s;
 }
 
 .post-slide-up {
     opacity: 1;
     transform: translate(0, 0) !important;
-    transition: opacity 0.25s ease, transform 1s ease;
+    transition: opacity 1s ease, transform 3s ease;
     transition-delay: 0.1s;
 }
 
 .pre-slide-right {
     opacity: 0;
     transform: translate(2.5vw, 0);
-    transition: opacity 0.5s ease, transform 1s ease;
+    transition: opacity 1s ease, transform 3s ease;
     transition-delay: 0.25s;
 }
 
 .post-slide-right {
     opacity: 1;
     transform: translate(0, 0) !important;
-    transition: opacity 0.5s ease, transform 1s ease;
+    transition: opacity 1s ease, transform 3s ease;
     transition-delay: 0.25s;
 }
 
 .pre-slide-left {
     opacity: 0;
     transform: translate(-2.5vw, 0);
-    transition: opacity 0.5s ease, transform 1s ease;
+    transition: opacity 1s ease, transform 3s ease;
     transition-delay: 0.25s;
 }
 
 .post-slide-left {
     opacity: 1;
     transform: translate(0, 0) !important;
-    transition: opacity 0.5s ease, transform 1s ease;
+    transition: opacity 1s ease, transform 3s ease;
     transition-delay: 0.25s;
 }
 
@@ -140,10 +140,9 @@ video {
     transform: translate(-50%, 60%);
 }
 
-
 .divider {
     height: 4vh;
-    margin: 10vh 0;
+    margin: 5vh 0;
     width: 100%;
 }
 .white-divider {
@@ -157,7 +156,7 @@ video {
     overflow-x: hidden;
 }
 .header {
-    margin-top: 10vh;
+    margin-top: 0vh;
     width: 100%;
 }
 .header-text {
@@ -171,7 +170,7 @@ video {
 }
 
 .section-container {
-    margin: 10vh 0;
+    margin: 5vh 0;
     padding: 0 5vw;
     text-align: center;
     display: flex;
@@ -277,6 +276,7 @@ hr {
 
 .leader {
     max-width: 30vw;
+    margin-top: 0;
     padding-bottom: 7.5vh;
 }
 
@@ -386,10 +386,6 @@ hr {
     }
     .divider {
         margin: 5vh 0;
-    }
-    .leader {
-        padding-bottom: 0;
-        margin: 0;
     }
 
 
