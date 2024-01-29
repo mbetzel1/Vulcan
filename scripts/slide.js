@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
           observer.unobserve(preSlideL);
         }
       });
-    }, { threshold: 0.1 }); 
+    }, { threshold: 0.5 }); 
 
     observer.observe(preSlideL);
   });
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
           observer.unobserve(preSlideR);
         }
       });
-    }, { threshold: 0.25 }); 
+    }, { threshold: 0.5 }); 
 
     observer.observe(preSlideR);
   });
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
             observer.unobserve(preSlide);
           }
         });
-      }, { threshold: 0.25 }); 
+      }, { threshold: 0.5 }); 
 
       observer.observe(preSlideUp);
     });
