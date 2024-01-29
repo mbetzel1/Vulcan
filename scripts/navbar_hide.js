@@ -1,22 +1,24 @@
 let prevScrollPos = window.scrollY;
 
 
-window.onscroll = function() {
+function navbarFunction() {
   let currentScrollPos = window.scrollY;
   var navbar = document.getElementById("topnav-holder");
   if (prevScrollPos > currentScrollPos) {
     navbar.classList.remove("hidden");
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-
-      navbar.style.padding = "0vh 10vw"; // Set the desired height when scrolled
-    } else {
-      navbar.style.padding = "3vh 10vw"; // Set the original height when at the top
-  }
   } else {
     if (currentScrollPos > window.innerHeight / 3) {
       navbar.classList.add("hidden");
     }
   }
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+
+    navbar.style.padding = "0vh 10vw"; // Set the desired height when scrolled
+  } else {
+    navbar.style.padding = "3vh 10vw"; // Set the original height when at the top
+  }
   
   prevScrollPos = currentScrollPos;
 };
+window.onscroll = navbarFunction
+window.onload = navbarFunction
