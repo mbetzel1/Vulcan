@@ -2,27 +2,18 @@ let prevScrollPos = window.scrollY;
 
 window.onscroll = function() {
   let currentScrollPos = window.scrollY;
-
+  var navbar = document.getElementById("topnav-holder");
   if (prevScrollPos > currentScrollPos) {
-    document.getElementById("topnav-holder").classList.remove("hidden");
+    navbar.classList.remove("hidden");
   } else {
-    if (currentScrollPos > window.innerHeight / 2) {
-      document.getElementById("topnav-holder").classList.add("hidden");
+    if (currentScrollPos > window.innerHeight / 3) {
+      navbar.classList.add("hidden");
     }
   }
-
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+      navbar.style.padding = "0vh 10vw"; // Set the desired height when scrolled
+  } else {
+      navbar.style.padding = "3vh 10vw"; // Set the original height when at the top
+  }
   prevScrollPos = currentScrollPos;
 };
-
-// window.onscroll = function() {
-//   shrinkNavbar();
-// };
-
-// function shrinkNavbar() {
-//   var navbar = document.getElementById("topnav-holder");
-//   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-//       navbar.style.padding = "0vh 10vw"; // Set the desired height when scrolled
-//   } else {
-//       navbar.style.padding = "3vh 10vw"; // Set the original height when at the top
-//   }
-// };
