@@ -24,35 +24,29 @@
 .pre-slide-up {
   opacity: 0;
   transform: translate3d(0, 5vh, 0);
-  transition: opacity 0.5s ease, transform 1.5s ease;
-  transition-delay: 0.1s;
 }
 
 .pre-slide-right {
   opacity: 0;
   transform: translate3d(1vw, 0, 0);
-  transition: opacity 0.5s ease, transform 1.5s ease;
-  transition-delay: 0.1s;
 }
 
 .pre-slide-left {
   opacity: 0;
   transform: translate3d(-1vw, 0, 0);
-  transition: opacity 0.5s ease, transform 1.5s ease;
-  transition-delay: 0.1s;
 }
 
 .post-slide {
   opacity: 1;
   transform: translate3d(0, 0, 0);
-  transition: opacity 0.5s ease, transform 1.5s ease;
+  transition: opacity 0.3s ease, transform 1s ease;
 }
 
 body, footer {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #000000;
   font-size: calc(16px + 0.390625vw);
-  color: #ffffff;
+  color: #f1eee8;
   overflow-x: hidden;
 }
 
@@ -66,7 +60,7 @@ h2 {
 p {
   font-size: 1em;
   font-weight: lighter;
-  color: #ffffff;
+  color: #f1eee8;
 }
 
 .navbar {
@@ -74,9 +68,9 @@ p {
   opacity: 1;
   transition: opacity 0.5s;
   padding: 3vh 10vw;
-  border-bottom: 2px solid #ffffff;
+  border-bottom: 2px solid #f1eee8;
   transition: padding 0.3s;
-  color: #ffffff;
+  color: #f1eee8;
 }
 
 .navbar.hidden {
@@ -111,7 +105,7 @@ video {
   top: 50%;
   left: 50%;
   text-align: center;
-  color: #ffffff;
+  color: #f1eee8;
   width: 60%;
 }
 
@@ -133,7 +127,7 @@ video {
 }
 
 .white-divider {
-  background-color: #ffffff;
+  background-color: #f1eee8;
   margin: 0;
   padding: 0;
 }
@@ -156,7 +150,7 @@ video {
   font-size: 2em;
   font-family: "Michroma-Regular", Arial, Sans-serif;
   text-align: left;
-  color: #ffffff;
+  color: #f1eee8;
 }
 
 .section-container {
@@ -248,7 +242,7 @@ video {
 }
 
 #values {
-  color: #ffffff;
+  color: #f1eee8;
 }
 
 .value, .leader {
@@ -296,7 +290,7 @@ hr {
 }
 
 #vulcan-leaders {
-  background-color: #ffffff;
+  background-color: #f1eee8;
   color: #000000;
   margin: 10vh 0;
   padding-top: 10vh;
@@ -334,7 +328,7 @@ hr {
 .contact-info {
   max-width: 60vw;
   margin: 0 auto;
-  border-top: 1px solid #ffffff;
+  border-top: 1px solid #f1eee8;
   font-size: 0.5em;
   text-align: center;
   padding: 10px 0;
