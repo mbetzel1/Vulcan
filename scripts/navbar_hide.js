@@ -11,13 +11,14 @@ function navbarFunction() {
       navbar.classList.add("hidden");
     }
   }
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+  if (window.innerWidth > 1000)  {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
 
-    navbar.style.padding = "0.5vh 10vw"; // Set the desired height when scrolled
-  } else if (document.body.scrollTop < 150 || document.documentElement.scrollTop < 150) {
-    navbar.style.padding = "3vh 10vw"; // Set the original height when at the top
+      navbar.style.padding = "0.5vh 10vw"; // Set the desired height when scrolled
+    } else if (document.body.scrollTop < 150 || document.documentElement.scrollTop < 150) {
+      navbar.style.padding = "3vh 10vw"; // Set the original height when at the top
+    }
   }
-  
   prevScrollPos = currentScrollPos;
 };
 window.onscroll = navbarFunction
