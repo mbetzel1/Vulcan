@@ -66,6 +66,7 @@ h2 {
 p {
   font-size: 1em;
   font-weight: lighter;
+  color: #ffffff;
 }
 
 .navbar {
@@ -75,6 +76,7 @@ p {
   padding: 3vh 10vw;
   border-bottom: 2px solid #ffffff;
   transition: padding 0.3s;
+  color: #ffffff;
 }
 
 .navbar.hidden {
@@ -290,6 +292,7 @@ hr {
 
 .leader-bio {
   font-size: 0.8em;
+  color: #000000;
 }
 
 #vulcan-leaders {
@@ -392,5 +395,8 @@ hr {
   }
   .about-text {
     font-size: 1.5em;
+  }
+  .leader-bio {
+    font-size: 1.1em;
   }
 }/*# sourceMappingURL=style.css.map */
