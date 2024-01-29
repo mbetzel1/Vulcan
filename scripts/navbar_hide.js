@@ -12,10 +12,10 @@ function navbarFunction() {
     }
   }
   if (window.innerWidth > 1000)  {
-    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
 
       navbar.style.padding = "0.5vh 10vw"; // Set the desired height when scrolled
-    } else if (document.body.scrollTop < 150 || document.documentElement.scrollTop < 150) {
+    } else if (document.body.scrollTop < 200 || document.documentElement.scrollTop < 200) {
       navbar.style.padding = "3vh 10vw"; // Set the original height when at the top
     }
   }
