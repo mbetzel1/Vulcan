@@ -79,6 +79,7 @@ p {
 
 .navbar.hidden {
   opacity: 0;
+  transition: opacity 0.5s;
 }
 
 .nav-item {
@@ -194,7 +195,7 @@ video {
 
 #drone-img {
   top: 0;
-  left: -30vw;
+  left: -26vw;
   width: 50vw;
   z-index: 1;
 }
@@ -208,7 +209,7 @@ video {
 
 #mri-img {
   top: 0;
-  right: -30vw;
+  right: -26vw;
   width: 50vw;
   z-index: 1;
 }
