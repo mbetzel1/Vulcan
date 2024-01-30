@@ -289,7 +289,7 @@ hr {
   color: #000000;
 }
 
-#vulcan-leaders {
+#leaders {
   background-color: #f1eee8;
   color: #000000;
   margin: 10vh 0;
@@ -297,13 +297,13 @@ hr {
   padding-bottom: 10vh;
 }
 
-#leader-header {
+#vulcan-leaders {
   margin-top: 10vh;
   margin-bottom: 5vh;
   padding-top: 0;
 }
 
-#leader-header h1 {
+#vulcan-leaders h1 {
   color: #000000;
 }
 
