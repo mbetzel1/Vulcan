@@ -226,13 +226,13 @@ video {
 }
 
 #right-about {
-  text-align: right;
+  text-align: left;
   justify-content: center;
   vertical-align: middle;
 }
 
 #left-about {
-  text-align: left;
+  text-align: right;
   justify-content: center;
   vertical-align: middle;
 }
@@ -382,5 +382,12 @@ hr {
   }
   .about-text {
     padding-top: 0;
+  }
+  .about-img-container {
+    padding: 0;
+  }
+  .about-text-container {
+    padding: 0;
+    padding-top: 5vh;
   }
 }/*# sourceMappingURL=style.css.map */
