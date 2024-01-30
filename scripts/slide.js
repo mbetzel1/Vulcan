@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
           if (entry.isIntersecting) {
             preSlideUp.classList.remove('pre-slide-up');
             preSlideUp.classList.add('post-slide');
-            observer.unobserve(preSlide);
+            observer.unobserve(preSlideUp);
           }
         });
       }, { threshold: 0.1 }); 
