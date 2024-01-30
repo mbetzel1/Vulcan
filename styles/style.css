@@ -124,12 +124,6 @@ video {
   width: 100%;
 }
 
-.white-divider {
-  background-color: #f1eee8;
-  margin: 0;
-  padding: 0;
-}
-
 .text-container {
   margin: 0;
   padding: 0;
@@ -144,7 +138,6 @@ video {
 .header-text {
   display: flex;
   padding-left: 1vw;
-  padding-bottom: 0.1vh;
   font-size: 2em;
   font-family: "Michroma-Regular", Arial, Sans-serif;
   text-align: left;
@@ -273,6 +266,7 @@ hr {
   max-width: 30vw;
   margin-top: 0;
   padding-bottom: 7.5vh;
+  padding-left: 0;
 }
 
 .leader-title {
@@ -288,14 +282,11 @@ hr {
 #leaders {
   background-color: #f1eee8;
   color: #000000;
-  margin: 10vh 0;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding: 10vh 5vw;
 }
 
 #vulcan-leaders {
   margin-top: 10vh;
-  margin-bottom: 5vh;
   padding-top: 0;
 }
 
@@ -389,5 +380,8 @@ hr {
   .about-text-container {
     padding: 0;
     padding-top: 5vh;
+  }
+  #vulcan-leaders {
+    padding-bottom: 6vh;
   }
 }/*# sourceMappingURL=style.css.map */
