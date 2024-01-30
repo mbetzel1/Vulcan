@@ -62,14 +62,12 @@ body, footer {
 }
 
 h2 {
-    font-size: 1.5em;
     font-weight: bold;
     margin: 0;
     padding: 0 0 0.5vh 0;
 }
 
 p {
-    font-size: 1em;
     font-weight: lighter;
     color: $secondary-color;
 }
@@ -216,18 +214,20 @@ video {
 .about-text {
     font-size: 2em;
     padding: 5vh 0;
-    font-family: "Roboto Mono", monospace;
 }
 .about-text-container, .about-img-container {
     min-width: 320px;
+    padding-top: 14vh;
 }
 #right-about {
     text-align: right;
-    justify-content: right;
+    justify-content: center;
+    vertical-align: middle;
 }
 #left-about {
     text-align: left;
-    justify-content: left;
+    justify-content: center;
+    vertical-align: middle;
 }
 
 
@@ -279,7 +279,6 @@ hr {
 }
 
 .leader-bio {
-    font-size: 0.8em;
     color: $primary-color;
 }
 
@@ -355,9 +354,6 @@ hr {
         padding: 0 auto;
         text-align: center;
     }
-    .contact-info p {
-        font-size: 1.5em
-    }
     .about-img {
         position: relative;
     }
@@ -383,10 +379,7 @@ hr {
         margin: 5vh 0;
     }
     .about-text {
-        font-size: 1.5em;
-    }
-    .leader-bio {
-        font-size: 1.1em;
+        padding-top: 0;
     }
 
 }
