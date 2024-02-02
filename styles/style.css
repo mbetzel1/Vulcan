@@ -80,6 +80,10 @@ p {
   padding: 0 1vw;
 }
 
+#logo {
+  height: 100px;
+}
+
 .vid-container {
   position: relative;
   width: 100%;
@@ -383,5 +387,8 @@ hr {
   }
   #vulcan-leaders {
     padding-bottom: 6vh;
+  }
+  #logo {
+    height: 75px;
   }
 }/*# sourceMappingURL=style.css.map */
