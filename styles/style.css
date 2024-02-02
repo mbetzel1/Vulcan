@@ -342,7 +342,7 @@ hr {
     width: 90%;
   }
   .overlay-big-text {
-    transform: translate(-50%, -90%);
+    transform: translate(-50%, -80%);
   }
   .overlay-small-text {
     transform: translate(-50%, 60%);
